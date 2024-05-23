@@ -1,5 +1,7 @@
-class Main {
-    public static void main(String args[]) {
-        System.out.println("Hello Java");
+import javax.swing.JOptionPane;
+
+class ShowMeAWindowDemo {
+    public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Первая программа на Java!");
     }
 }
